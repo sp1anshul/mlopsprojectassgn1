@@ -10,6 +10,7 @@ X, y = data.data, data.target
 # Train model
 model = LinearRegression()
 model.fit(X, y)
+print("Model training complete.")
 
 # Save model
 joblib.dump(model, "model.pkl")
