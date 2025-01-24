@@ -16,3 +16,4 @@ print("Model training complete.")
 # Save model
 joblib.dump(model, "model.pkl")
 print("Model training complete. Model saved as model.pkl.")
+print("Test CI/CD")
