@@ -6,6 +6,7 @@ import joblib
 # Load dataset
 data = load_diabetes()
 X, y = data.data, data.target
+print("Dataset loaded.")
 
 # Train model
 model = LinearRegression()
